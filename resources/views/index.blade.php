@@ -1,0 +1,11 @@
+@extends('layouts.base')
+@section('titre')
+{{"Accueil"}}@endsection
+@section('content')
+    @include('about')
+    @include('facts')
+    @include('features')
+    @include('action')
+    @include('portfolio')
+    @include('team')
+@endsection
